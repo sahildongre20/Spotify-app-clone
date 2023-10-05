@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/sidebar/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap" rel="stylesheet">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style2.css">
+
+
+</head>
+<body>
+    <header>
+        <nav class="sidebar">
+            <div class="logo">
+                <img src="assets/sidebar/Spotify logo.svg" alt="spotify logo">
+            </div>
+            <div class="nav-links first-block">
+                <ul>
+                    <li> <img src="assets/sidebar/home.svg" alt="home logo"> <a href="#">Home</a></li>
+                    <li> <img src="assets/sidebar/search.svg" alt="search logo"><a href="#">Search</a></li>
+                    <li> <img src="assets/sidebar/library.svg" alt="library logo"><a href="playlist.html">Your Library</a></li>
+                </ul>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li> <img src="assets/sidebar/add.svg" alt="home logo"> <a href="#">Create Playlist</a></li>
+                    <li> <img src="assets/sidebar/love.svg" alt="search logo"><a href="#">Liked Songs</a></li>
+                    <li> <img src="assets/sidebar/podcast.svg" alt="library logo"><a href="#">Your Episodes</a></li>
+                </ul>
+            </div>  
+
+            <div class="nav-links">
+                    <ul class="install">
+                        <li> <img style="width: 100%;" src="assets/sidebar/album art.svg" alt="install logo" title="album art"></li>
+                    </ul>
+            </div>  
+        
+        </nav>
+    </header>
+    <main>
+
+        
+         <section id="musicPlayer">
+            <div class="song">
+                <img class="album-cover" src="assets/player/album-cover.png" alt="">
+                <div class="song-details">
+                    <h3>Redbone</h3>
+                    <p>Childish Gambino </p>
+                </div>
+                <img src="assets/player/heart.svg" alt="">
+            </div>
+            <div class="player">
+                <div class="song-controls">
+                    <img src="assets/player/shuffle.svg" alt="shuffle btn ">
+                    <img src="assets/player/prev.svg" alt="previous btn">
+                    <img src="assets/player/play.svg" alt="play btn">
+                    <img src="assets/player/next.svg" alt="next btn">
+                    <img src="assets/player/repeat.svg" alt="repeat btn">
+                </div>
+                <div class="progress">
+                    <p>2.11</p>
+                    <img id="progress-bar" src="assets/player/progressbar.svg" alt="progress bar">
+                    <p>5.12</p>
+                </div>
+            </div>
+            <div class="song-option">
+                <img src="assets/player/microphone.svg" alt="microphone">
+                <img src="assets/player/queue.svg" alt="queue">
+                <img src="assets/player/laptop.svg" alt="laptop">
+                <img src="assets/player/speaker.svg" alt="speaker">
+                <img src="assets/player/bar.svg" alt="bar">
+                <img src="assets/player/scale.svg" alt="scale">
+
+            </div>
+        </section> 
+
+
+        <section class="album">
+            <div class="album-details">
+                <img width="250px" src="assets/playlist/dua-lipa.svg" alt="dua-lipa">
+                <div class="album-text">
+                    <p>PLAYLIST</p>
+                    <h1>Pop Right Now</h1>
+                    <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus</p>
+                    <p><span>Spotify</span> <span class="light"> <span class="dot">.</span> 860,305 likes <span class="dot">.</span> 100 songs, 5 hr 5 min </span></p>
+                </div>
+            </div>
+            <div></div>
+        </section>
+        <section class="playlist-container">
+            <div class="top">
+                <div>
+                    <img src="assets/playlist/thumb_play.svg" alt="thumb_play">
+                    <img src="assets/playlist/heart.svg" alt="heart">
+                    <img src="assets/playlist/more_big.svg" alt="more_big">
+                </div>
+                <div></div>
+            </div>            
+            <div class="divider">
+                <div class="line"></div>
+                <p># Title</p>
+                <p class="p-l-x">ALBUM</p>
+                <p class="p-l">DATE ADDED</p>
+                <div></div>
+            </div> 
+        </section>
+
+        <section class="table-grid">
+            <table>
+                <tr class="row-1 row">
+                    <td class="col-1"> <img src="assets/playlist/play.svg" alt="play">
+                    <img src="assets/playlist/album-art-1.svg" alt="album-art-1">
+                    <div><h4>We're Good</h4><p>Dua Lipa</p></div></td>
+                    <td>Future Nostalgia (The Moonlight Edition)</td>
+                    <td class="light">4일 전</td>
+                    <td class="col-4 light"><img src="assets/playlist/heart-little.svg" alt="heart-little"> 
+                    <p>2:45</p>
+                <img src="assets/playlist/dots.svg" alt=""></td>
+
+                </tr>
+                <tr class="row">
+                    <td class="col-1">  <p class="num light">2</p>
+                    <img src="assets/playlist/album-art-2.svg" alt="album-art-2">
+                    <div><h4>We're Good</h4><p>Dua Lipa</p></div></td>
+                    <td>Future Nostalgia (The Moonlight Edition)</td>
+                    <td class="light">4일 전</td>
+                    <td class="col-4 light"><img src="assets/playlist/heart-little.svg" alt="heart-little"> 
+                    <p>2:45</p>
+                <img src="assets/playlist/dots.svg" alt=""></td>
+
+                </tr>
+                <tr class="row">
+                    <td class="col-1">  <p class="num light">2</p>
+                    <img src="assets/playlist/album-art-2.svg" alt="album-art-2">
+                    <div><h4>We're Good</h4><p>Dua Lipa</p></div></td>
+                    <td>Future Nostalgia (The Moonlight Edition)</td>
+                    <td class="light">4일 전</td>
+                    <td class="col-4 light"><img src="assets/playlist/heart-little.svg" alt="heart-little"> 
+                    <p>2:45</p>
+                <img src="assets/playlist/dots.svg" alt=""></td>
+
+                </tr>
+                <tr class="row">
+                    <td class="col-1">  <p class="num light">2</p>
+                    <img src="assets/playlist/album-art-2.svg" alt="album-art-2">
+                    <div><h4>We're Good</h4><p>Dua Lipa</p></div></td>
+                    <td>Future Nostalgia (The Moonlight Edition)</td>
+                    <td class="light">4일 전</td>
+                    <td class="col-4 light"><img src="assets/playlist/heart-little.svg" alt="heart-little"> 
+                    <p>2:45</p>
+                <img src="assets/playlist/dots.svg" alt=""></td>
+
+                </tr>
+                <tr class="row">
+                    <td class="col-1">  <p class="num light">2</p>
+                    <img src="assets/playlist/album-art-2.svg" alt="album-art-2">
+                    <div><h4>We're Good</h4><p>Dua Lipa</p></div></td>
+                    <td>Future Nostalgia (The Moonlight Edition)</td>
+                    <td class="light">4일 전</td>
+                    <td class="col-4 light"><img src="assets/playlist/heart-little.svg" alt="heart-little"> 
+                    <p>2:45</p>
+                <img src="assets/playlist/dots.svg" alt=""></td>
+
+                </tr>
+                <tr class="row">
+                    <td class="col-1">  <p class="num light">2</p>
+                    <img src="assets/playlist/album-art-2.svg" alt="album-art-2">
+                    <div><h4>We're Good</h4><p>Dua Lipa</p></div></td>
+                    <td>Future Nostalgia (The Moonlight Edition)</td>
+                    <td class="light">4일 전</td>
+                    <td class="col-4 light"><img src="assets/playlist/heart-little.svg" alt="heart-little"> 
+                    <p>2:45</p>
+                <img src="assets/playlist/dots.svg" alt=""></td>
+
+                </tr>
+                <tr class="row">
+                    <td class="col-1">  <p class="num light">2</p>
+                    <img src="assets/playlist/album-art-2.svg" alt="album-art-2">
+                    <div><h4>We're Good</h4><p>Dua Lipa</p></div></td>
+                    <td>Future Nostalgia (The Moonlight Edition)</td>
+                    <td class="light">4일 전</td>
+                    <td class="col-4 light"><img src="assets/playlist/heart-little.svg" alt="heart-little"> 
+                    <p>2:45</p>
+                <img src="assets/playlist/dots.svg" alt=""></td>
+
+                </tr>
+                <tr class="row">
+                    <td class="col-1">  <p class="num light">2</p>
+                    <img src="assets/playlist/album-art-2.svg" alt="album-art-2">
+                    <div><h4>We're Good</h4><p>Dua Lipa</p></div></td>
+                    <td>Future Nostalgia (The Moonlight Edition)</td>
+                    <td class="light">4일 전</td>
+                    <td class="col-4 light"><img src="assets/playlist/heart-little.svg" alt="heart-little"> 
+                    <p>2:45</p>
+                <img src="assets/playlist/dots.svg" alt=""></td>
+
+                </tr>
+                <tr class="row">
+                    <td class="col-1">  <p class="num light">2</p>
+                    <img src="assets/playlist/album-art-2.svg" alt="album-art-2">
+                    <div><h4>We're Good</h4><p>Dua Lipa</p></div></td>
+                    <td>Future Nostalgia (The Moonlight Edition)</td>
+                    <td class="light">4일 전</td>
+                    <td class="col-4 light"><img src="assets/playlist/heart-little.svg" alt="heart-little"> 
+                    <p>2:45</p>
+                <img src="assets/playlist/dots.svg" alt=""></td>
+
+                </tr>
+                <tr class="row">
+                    <td class="col-1">  <p class="num light">2</p>
+                    <img src="assets/playlist/album-art-2.svg" alt="album-art-2">
+                    <div><h4>We're Good</h4><p>Dua Lipa</p></div></td>
+                    <td>Future Nostalgia (The Moonlight Edition)</td>
+                    <td class="light">4일 전</td>
+                    <td class="col-4 light"><img src="assets/playlist/heart-little.svg" alt="heart-little"> 
+                    <p>2:45</p>
+                <img src="assets/playlist/dots.svg" alt=""></td>
+
+                </tr>
+                <tr class="row">
+                    <td class="col-1">  <p class="num light">2</p>
+                    <img src="assets/playlist/album-art-2.svg" alt="album-art-2">
+                    <div><h4>We're Good</h4><p>Dua Lipa</p></div></td>
+                    <td>Future Nostalgia (The Moonlight Edition)</td>
+                    <td class="light">4일 전</td>
+                    <td class="col-4 light"><img src="assets/playlist/heart-little.svg" alt="heart-little"> 
+                    <p>2:45</p>
+                <img src="assets/playlist/dots.svg" alt=""></td>
+
+                </tr> <tr class="row">
+                    <td class="col-1">  <p class="num light">2</p>
+                    <img src="assets/playlist/album-art-2.svg" alt="album-art-2">
+                    <div><h4>We're Good</h4><p>Dua Lipa</p></div></td>
+                    <td>Future Nostalgia (The Moonlight Edition)</td>
+                    <td class="light">4일 전</td>
+                    <td class="col-4 light"><img src="assets/playlist/heart-little.svg" alt="heart-little"> 
+                    <p>2:45</p>
+                <img src="assets/playlist/dots.svg" alt=""></td>
+
+                </tr> <tr class="row">
+                    <td class="col-1">  <p class="num light">2</p>
+                    <img src="assets/playlist/album-art-2.svg" alt="album-art-2">
+                    <div><h4>We're Good</h4><p>Dua Lipa</p></div></td>
+                    <td>Future Nostalgia (The Moonlight Edition)</td>
+                    <td class="light">4일 전</td>
+                    <td class="col-4 light"><img src="assets/playlist/heart-little.svg" alt="heart-little"> 
+                    <p>2:45</p>
+                <img src="assets/playlist/dots.svg" alt=""></td>
+
+                </tr> <tr class="row">
+                    <td class="col-1">  <p class="num light">2</p>
+                    <img src="assets/playlist/album-art-2.svg" alt="album-art-2">
+                    <div><h4>We're Good</h4><p>Dua Lipa</p></div></td>
+                    <td>Future Nostalgia (The Moonlight Edition)</td>
+                    <td class="light">4일 전</td>
+                    <td class="col-4 light"><img src="assets/playlist/heart-little.svg" alt="heart-little"> 
+                    <p>2:45</p>
+                <img src="assets/playlist/dots.svg" alt=""></td>
+
+                </tr>
+
+                
+
+               
+               
+            </table>
+        </section>
+        
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
