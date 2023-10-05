@@ -1,0 +1,144 @@
+*{
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body{
+    background: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 100%);
+}
+nav{
+    position: fixed;
+    overflow-y: auto; /* Add this property for vertical scrolling */
+    max-height: 100%; /* Adjust the maximum height as needed */
+    display: inline-block;
+}
+
+.sidebar{
+    background-color: #000;
+    padding: 10px;
+    width:  300px;
+    z-index: 3;
+}
+a{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo img{
+    height: 40px;
+    margin:auto;
+    margin-block: 10px;
+}
+.logo{
+    margin-bottom: 20px;
+}
+
+.nav-links ul{
+    padding: 0;
+    
+}
+.nav-links li{
+    padding: 15px;
+    list-style: none;
+}
+.first-block li:first-child{
+    background-color: aliceblue;
+    border-radius: 6px;
+    background: #282828;
+}
+.nav-links  img{
+    width: 25px;
+    margin-right: 20px;
+}
+.nav-links{
+    margin-bottom: 20px;
+}
+nav::-webkit-scrollbar{
+    display: none;
+}
+#top-bar{
+    display: flex;
+    background-color: #00000032;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 300px;
+}
+
+.user-con{
+    display: flex;
+}
+.arrows img{
+    margin-right: 20px;
+}
+.user-con{
+    background-color: #000;
+    justify-content: space-around;
+    align-items: center;   
+    padding: 3px;
+    border-radius: 20px;
+}
+
+.user-con img:first-child{
+    border-radius: 50%;
+    width: 37px;
+    border: 3px solid white;
+}
+.user-con h3{
+    font-size: 1.25rem;
+    margin-inline: 10px;
+}
+#listening-on-bar{
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #1ED760;
+    z-index: 5;
+}
+#listening-on-bar p{
+    color: #000;
+    margin-right: 20px;
+}
+#musicPlayer{
+    background: #181818;
+    margin-left: 300px;
+    background-color:aquamarine;
+    padding:20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.song{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.album-cover{
+    width: 70px;
+    height: 70px;
+}
+.song-details{
+    margin-inline: 10px;
+}
+.player controls{
+    height: 10px;
+}
+
+.spotify-player{
+    position: fixed;
+    z-index: 5;
+}
