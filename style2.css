@@ -271,9 +271,161 @@ table{
     padding-inline: 20px;
     padding-block: 5px;
 }
+
 .row-1{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #252727;
+}
+
+@media screen and (max-width:800px) {
+    :root{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:900px) {
+    main{
+        margin-left: 150px;
+    }
+    :root{
+        font-size: 10px;
+    }
+    .logo img{
+        height: 30px;
+    }
+        nav{
+            max-width: 150px;
+        }
+    .album{
+        margin-top: 0px;
+
+    }
+    .album-details{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-top: 30px;
+
+    }
+    .divider .p-l{
+        margin-left: 10;
+    }
+    .divider .p-l-x{
+        margin-left: 10px;
+    }
+    .top-1{
+        display: flex;
+        width: 100%;
+
+        justify-content: space-between;
+    }
+    tr td:nth-child(2){
+        width: 45%;
+    }
+    tr td:nth-child(3){
+        display: none;
+    }
+    tr td:nth-child(4){
+        display: none;
+    }
+    .p-l{
+        display: none;
+    }
+    .top-1 img{
+        width: 50px;
+    }
+}
+
+@media screen and (max-width:490px) {
+    
+    .album-details{
+        width: 60%;
+        margin-inline: auto;
+        margin-top: 30px;
+    }
+    tr td:nth-child(2){
+        display: none;
+    }
+    .p-l-x{
+        display: none;
+    }
+    .top-1 img{
+        width: 30px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+@media screen and (max-width:380px) {
+    .album-details img{
+        width: 150px;
+    }
+    .album-details h1{
+        font-size: 2rem;
+    }
+    table,tr{
+        padding: 5px;
+    }
+    .row{
+        padding: 5px;
+    }
+}
+@media screen and (max-width:300px) {
+    nav{
+        max-width: 100px;
+    }
+    .logo img{
+        height: 25px;
+    }
+    .nav-links img{
+        height: 10px;
+        margin-right: 5px;
+    }
+    main{
+        margin-left: 100px;
+    }
+    .album-details img{
+        width: 100px;
+    }
+}
+@media screen and (max-width:660px) {
+    
+    #top-bar{
+        left: 150px;
+    }
+    
+    #musicPlayer{
+        bottom: 0px;
+    }
+    #listening-on-bar{
+        display: none;
+    }
+    #musicPlayer{
+        display: block;
+        padding: 10px;
+    }
+    #musicPlayer {
+        padding: 5px;
+    }
+    #progress-bar{
+        width: 80%;
+    }
+    .progress p:last-child{
+        text-align: end;
+    }
+    .progress{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #progress-bar {
+        margin: 0;
+    }
+    .song-option{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }

@@ -228,7 +228,8 @@ h2{
     align-items: center;
     padding: 20px;
 }
-.shows-section{margin-left: 300px;
+.shows-section{
+    margin-left: 300px;
     padding: 30px;
 }
 .shows{
@@ -257,4 +258,106 @@ h2{
 .show-card p{
     font-size: 0.8rem;
     color: #B3B3B3;
+}
+@media screen and (max-width:800px) {
+    :root{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:490px) {
+    #top-bar{
+        display: block;
+    }
+    .arrows{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    #featured{
+        margin-top: 120px;
+    }
+    .featured-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-text{
+        width: 100%;
+    }
+    .featured-card img{
+        height: 120px;
+    }
+
+}
+@media screen and (max-width:660px) {
+    :root{
+        font-size: 10px;
+    }
+    .logo img{
+        height: 30px;
+    }
+    nav{
+        max-width: 150px;
+    }
+    #top-bar{
+        left: 150px;
+    }
+    #featured{
+        margin-left: 150px;
+        padding: 10px;
+    }
+    .shows-section{
+        margin-left: 150px;
+        padding: 10px;
+    }
+    .show-card{
+        padding: 10px;
+    }
+    .show-card img{
+        width: 100px;
+
+    }
+    .show-card h4,P{
+        width: 70%;
+    }
+    .show-text{
+        display: block;
+    }
+    .show-text p{
+        margin-top: 10px;
+        text-decoration: underline;
+    }
+    #musicPlayer{
+        bottom: 0px;
+    }
+    #listening-on-bar{
+        display: none;
+    }
+    #musicPlayer{
+        display: block;
+        padding: 10px;
+    }
+    #musicPlayer {
+        padding: 5px;
+    }
+    #progress-bar{
+        width: 80%;
+    }
+    .progress p:last-child{
+        text-align: end;
+    }
+    .progress{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #progress-bar {
+        margin: 0;
+    }
+    .song-option{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+
 }
