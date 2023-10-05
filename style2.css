@@ -357,6 +357,9 @@ table{
     body{
         overflow-x: hidden;
     }
+    .install{
+        margin-bottom: 200px;
+    }
 }
 @media screen and (max-width:380px) {
     .album-details img{
@@ -371,6 +374,7 @@ table{
     .row{
         padding: 5px;
     }
+   
 }
 @media screen and (max-width:300px) {
     nav{
@@ -380,13 +384,16 @@ table{
         height: 25px;
     }
     .nav-links img{
-        height: 10px;
-        margin-right: 5px;
+        height: 15px;
+        margin-right: 10px;
     }
     main{
         margin-left: 100px;
     }
     .album-details img{
+        width: 100px;
+    }
+    #a-c{
         width: 100px;
     }
 }
