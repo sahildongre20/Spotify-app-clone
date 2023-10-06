@@ -279,17 +279,18 @@ table{
     align-items: center;
     background-color: #252727;
 }
+main{
+    height:100%;
+}
+nav{
+    height: 1000%;
+}
 
 @media screen and (max-width:800px) {
     :root{
         font-size: 12px;
     }
-    main{
-        height:100%;
-    }
-    nav{
-        height: 1000%;
-    }
+    
 }
 @media screen and (max-width:900px) {
     main{
