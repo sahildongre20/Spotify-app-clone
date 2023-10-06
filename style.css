@@ -18,7 +18,7 @@ body{
 nav{
     position: fixed;
     overflow-y: auto; /* Add this property for vertical scrolling */
-    max-height: 100%; /* Adjust the maximum height as needed */
+    height: 100%; /* Adjust the maximum height as needed */
     display: inline-block;
     max-width: 300px;
     top:0;
@@ -263,6 +263,13 @@ h2{
     :root{
         font-size: 12px;
     }
+    body{
+        height: 100%;
+    }
+    nav{
+        height: 100%;
+    }
+
 }
 @media screen and (max-width:490px) {
     #top-bar{
