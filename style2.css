@@ -336,6 +336,13 @@ table{
     .top-1 img{
         width: 50px;
     }
+    body{
+        height: 100%;
+    }
+    nav{
+        height: 100%;
+    }
+
 }
 
 @media screen and (max-width:490px) {
